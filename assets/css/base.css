@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: calc(100% - 50px);
+    margin:auto;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.USERS{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+     margin-top: 50px; 
+}
+
+h1{
+    width:40%;
+    background-color:rgb(224, 13, 55);
+    color:whitesmoke;
+    text-align: center;
+    font-size: 70px;
+
+}
+.user-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.user{
+
+    width: 70%;
+    border:double rgb(224, 13, 55) 5px;
+    padding: 20px;
+
+}
+
+h2{
+    text-align: center;
+    color:rgb(224, 13, 55);
+    font-style: italic;
+    font-weight:lighter;
+    font-size:40px;
+
+}
+
+span{
+    color: rgba(218, 23, 23, 0.986);
+    font-weight: bold;
+    font-style: italic;
+    font-size:20px;
+}
+
+p{
+font-size:18px;
+}
+
